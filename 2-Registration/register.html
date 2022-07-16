@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="css/style.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+
+<body>
+
+  <div class="container">
+       <h5><a style="color: blue;" align =right href="../3-SMCCWebsite/index.html">Home</a></h5>
+    <div class="title">Student's Registration Form</div>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+
+          <div class="input-box">
+            <span class="details">Student ID</span>
+            <input type="text" placeholder="Enter your ID number" required>
+          </div>
+
+          <div class="input-box">
+            <span class="details">First name</span>
+            <input type="text" placeholder="Enter your first name" required>
+          </div>
+
+          <div class="input-box">
+            <span class="details">Middle name</span>
+            <input type="text" placeholder="Enter your middle name" required>
+          </div>
+
+           <div class="input-box">
+            <span class="details">Last name</span>
+            <input type="text" placeholder="Enter your last name" required>
+          </div>
+
+          <div class="gender-details">
+          <input type="radio" name="gender" id="dot-1">
+          <input type="radio" name="gender" id="dot-2">
+          <input type="radio" name="gender" id="dot-3">
+          <span class="gender-title">Gender</span>
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="gender">Male</span>
+             </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="gender">Female</span>
+             </label>
+          <label for="dot-3">
+            <span class="dot three"></span>
+            <span class="gender">Prefer not to say</span>
+            </label>
+          </div>
+        </div>
+
+          <div class="input-box">
+            <span class="details">Birthdate</span>
+            <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+          </div>
+
+          <div class="input-box">
+            <span class="details">Complete Adress</span>
+            <input type="text" placeholder="Enter your complete address" required>
+          </div>
+
+          <div class="input-box">
+            <span class="details">Year Level</span>
+      <select class="option" name="subject">
+      <option disabled="disabled" selected="selected">--Choose Option</option>
+      <option> First Year</option>
+      <option> Second Year</option>
+      <option> Third Year</option>
+      <option> Fourth Year</option>
+     </select>
+          </div>
+
+          <div class="input-box">
+            <span class="details">Course</span>
+      <select class="option" name="subject">
+      <option disabled="disabled" selected="selected">--Choose Course</option>
+      <option> BSIT</option>
+      <option> BSCS</option>
+      <option> BEED</option>
+      <option> BSED</option>
+      <option> TESDA</option>
+      <option> BSHRM</option>
+     </select>
+          </div>
+
+          <div class="input-box">
+            <span class="details">Number of Subjects Enrolled</span>
+            <input type="number" id="quantity" name="quantity" min="1" max="5">
+          </div>
+
+          <div class="input-box">
+            <span class="details">Email Address</span>
+            <input type="Email" id="email" name="email" placeholder="Enter your email address" required>
+          </div>
+
+<div class="input-box">
+<span class="details">Password</span>
+  <input type="password" id="pwd" name="pwd" minlength="8" placeholder="Enter your password" required><br><br>
+</div>
+
+<div class="scholar"><center>
+<span class="details"><b> Attach Profile Image: </b></span>
+   <input type="file"  id="myFile" name="filename"></center>
+</div>
+
+
+          <div class="scholar">
+            <span class="details"><b>Scholarships: </b></span><br><br>
+  <center>
+  <input type="checkbox" id="scho1" name="s1" value="TES">
+  <label for="s1"> TES</label>&nbsp;&nbsp;&nbsp;&nbsp;
+
+  <input type="checkbox" id="scho2" name="s2" value="Provincial">
+  <label for="s2"> Provincial Scholar</label>&nbsp;&nbsp;&nbsp;&nbsp;
+
+  <input type="checkbox" id="scho3" name="s3" value="LGU">
+  <label for="s3"> LGU Scholar</label>&nbsp;&nbsp;&nbsp;&nbsp;
+
+   <input type="checkbox" id="scho4" name="s4" value="LGU">
+  <label for="s4"> Student Assistant</label>&nbsp;&nbsp;&nbsp;&nbsp;
+
+   <input type="checkbox" id="scho5" name="s5" value="LGU">
+  <label for="s5"> Others <input type="text" class="input-box" placeholder="Enter other scholarships" required></label>
+     </div>
+</center>
+
+
+</div>
+
+  <center>
+                <div class="button">
+          <input type="submit" value="Submit">
+         </a>
+        </div>
+<br>
+        <div class="button2">
+          <input type="cancel" value="Cancel">
+        </div>
+</center>
+
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
